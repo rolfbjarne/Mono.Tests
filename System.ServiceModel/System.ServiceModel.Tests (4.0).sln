@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C6269D6-619D-4E9A-A861-4A31455FE1DF}"
+	ProjectSection(SolutionItems) = preProject
+		GenerateServices.cmd = GenerateServices.cmd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.ServiceModel.Tests (4.0)", "System.ServiceModel.Tests (4.0).csproj", "{4B434A93-F107-4E8F-BCC7-B40FEAF81453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Unit (4.0)", "..\..\Mono.Unit\Mono.Unit (4.0).csproj", "{F10B7887-284C-4FA6-A654-0C8F5C9CB9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitLite (4.0)", "..\..\NUnitLite\Projects\NUnitLite (4.0).csproj", "{C24A3FC4-2541-4E9C-BADD-564777610B75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		NET_4_0|Any CPU = NET_4_0|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B434A93-F107-4E8F-BCC7-B40FEAF81453}.NET_4_0|Any CPU.ActiveCfg = NET_4_0|Any CPU
+		{4B434A93-F107-4E8F-BCC7-B40FEAF81453}.NET_4_0|Any CPU.Build.0 = NET_4_0|Any CPU
+		{C24A3FC4-2541-4E9C-BADD-564777610B75}.NET_4_0|Any CPU.ActiveCfg = NET_4_0|Any CPU
+		{C24A3FC4-2541-4E9C-BADD-564777610B75}.NET_4_0|Any CPU.Build.0 = NET_4_0|Any CPU
+		{F10B7887-284C-4FA6-A654-0C8F5C9CB9DB}.NET_4_0|Any CPU.ActiveCfg = NET_4_0|Any CPU
+		{F10B7887-284C-4FA6-A654-0C8F5C9CB9DB}.NET_4_0|Any CPU.Build.0 = NET_4_0|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = System.ServiceModel.Tests (4.0).csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
