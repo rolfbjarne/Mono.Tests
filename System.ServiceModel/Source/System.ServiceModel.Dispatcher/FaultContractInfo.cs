@@ -46,6 +46,13 @@ namespace System_ServiceModel_Dispatcher {
 			});
 			EnqueueTestComplete ();
 		}
+
+		[Test]
+		[Asynchronous]
+		public void SecondTest ()
+		{
+			EnqueueTestComplete ();
+		}
 	}
 }
 
